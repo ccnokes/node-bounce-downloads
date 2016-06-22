@@ -1,0 +1,31 @@
+{
+  "name": "bounce-downloads",
+  "version": "1.0.0",
+  "description": "A native node.js module to bounce the downloads folder on Mac OSX.",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp build"
+  },
+  "os": ["darwin"],
+  "engines": {
+    "node": ">=5.x"
+  },
+  "keywords": [
+    "native",
+    "os",
+    "osx",
+    "mac",
+    "bounce",
+    "dock"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccnokes/node-bounce-downloads"
+  },
+  "author": "ccnokes",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
+}
